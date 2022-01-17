@@ -44,7 +44,7 @@
 //complexity? Related Topics Array Hash Table 👍 26909 👎 865
 
 
-package com.amy.leetcode.editor.en;
+package com.amy.leetcode._1;
 
 import java.util.HashMap;
 import java.util.Map;
