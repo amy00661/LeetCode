@@ -12,7 +12,7 @@
 // 
 //Input: nums = [2,7,11,15], target = 9
 //Output: [0,1]
-//Output: Because nums[0] + nums[1] == 9, we return [0, 1].
+//Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 // 
 //
 // Example 2: 
@@ -46,12 +46,19 @@
 
 package com.amy.leetcode._1;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
+import java.util.stream.Collectors;
 
-public class TwoSum {
+public class TwoSum{
     public static void main(String[] args) {
         Solution solution = new TwoSum().new Solution();
+
+        /*===== Debug測試用 Begin =====*/
+        int[] testCase = new int[]{6,2,11,7,15};
+        int target = 9;
+        int[] answer = solution.twoSum(testCase, target);
+        System.out.println("答案是：" + Arrays.toString(answer));
+        /*===== Debug測試用 End =====*/
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
